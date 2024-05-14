@@ -64,7 +64,7 @@ We welcome contributions to QuantumMesh! Please see our contributing guidelines 
 QuantumMesh is released under the MIT License.
 
 Contact
-For any questions or feedback, please contact us at quantummesh@example.com.
+For any questions or feedback, please contact us at support@quantummesh.com.
 
 Acknowledgments
 QuantumMesh was developed with funding from the Quantum Computing Research Initiative.
