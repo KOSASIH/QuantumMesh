@@ -47,24 +47,22 @@ To simulate a quantum circuit, we can use the Simulator class:
 
 ```python
 
-from simulator import Simulator
+1. from simulator import Simulator
+2. 
+3. # Create a new simulator with one qubit
+4. sim = Simulator(1)
+5. 
+6. # Add a Hadamard gate to the simulator
+7. sim.apply_gate(HGate(0))
+8. 
+9. # Measure the qubit
+10. outcome = sim.measure()
+11. 
+12. # Print the outcome
+13. print(outcome)
+
 ```
 
-# Create a new simulator with one qubit
-
-sim = Simulator(1)
-
-# Add a Hadamard gate to the simulator
-
-sim.apply_gate(HGate(0))
-
-# Measure the qubit
-
-outcome = sim.measure()
-
-# Print the outcome
-
-print(outcome)
 
 This will output either 0 or 1, depending on the random measurement outcome.
 
