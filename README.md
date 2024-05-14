@@ -28,10 +28,9 @@ To install QuantumMesh, simply clone the repository and install the dependencies
 
 To use QuantumMesh, you can create a new repository and initialize it with the QuantumMesh configuration:
 
-bash
-Edit
-Run
-Full Screen
-Copy code
-quantummesh init
+```bash
+
+1. quantummesh init
+```
+
 This will create a new .qmesh directory with the necessary configuration files.
