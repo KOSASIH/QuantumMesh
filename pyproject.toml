@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["qc_library"]
+
+[tool.setuptools.package-data]
+"qc_library" = ["py.typed"]
+
+[tool.setuptools.entry-points]
+console_scripts = [
+    "qc = qc_library.__main__:main"
+]
+
+[tool.setuptools.package-data]
+"qc_library" = ["py.typed"]
