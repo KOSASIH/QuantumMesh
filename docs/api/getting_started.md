@@ -17,23 +17,20 @@ To get started, let's create a simple quantum circuit with one qubit and one Had
 ```python
 
 1. from circuit import Circuit, HGate
+2. 
+3. # Create a new circuit with one qubit
+4. circuit = Circuit(1)
+5. 
+6. # Add a Hadamard gate to the circuit
+7. circuit.add_gate(HGate(0))
+8. 
+9. # Apply the gates to the circuit
+10. circuit.apply_gates()
+11. 
+12. # Print the final state of the qubit
+13. print(circuit.qubits[0].state)
+
 ```
-
-# Create a new circuit with one qubit
-
-circuit = Circuit(1)
-
-# Add a Hadamard gate to the circuit
-
-circuit.add_gate(HGate(0))
-
-# Apply the gates to the circuit
-
-circuit.apply_gates()
-
-# Print the final state of the qubit
-
-print(circuit.qubits[0].state)
 
 This will output:
 
