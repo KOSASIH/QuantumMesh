@@ -23,6 +23,7 @@ To install QuantumMesh, simply clone the repository and install the dependencies
 1. git clone https://github.com/KOSASIH/QuantumMesh.git
 2. cd QuantumMesh
 3. pip install -r requirements.txt
+```
 
 # Usage
 
@@ -34,3 +35,37 @@ To use QuantumMesh, you can create a new repository and initialize it with the Q
 ```
 
 This will create a new .qmesh directory with the necessary configuration files.
+You can then add and commit files as you would with a regular Git repository:
+
+```bash
+
+1. quantummesh add .
+2. quantummesh commit -m "Initial commit"
+```
+
+To push your changes to the QuantumMesh network, you can use the quantummesh push command:
+
+```bash
+
+1. quantummesh push
+```
+This will encrypt your changes using quantum-enhanced cryptographic protocols and upload them to the QuantumMesh network.
+
+# Documentation
+
+For more information on how to use QuantumMesh, please refer to the official documentation.
+
+# Contributing
+
+We welcome contributions to QuantumMesh! Please see our contributing guidelines for more information.
+
+# License
+
+QuantumMesh is released under the MIT License.
+
+Contact
+For any questions or feedback, please contact us at quantummesh@example.com.
+
+Acknowledgments
+QuantumMesh was developed with funding from the Quantum Computing Research Initiative.
+
