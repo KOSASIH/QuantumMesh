@@ -1,0 +1,23 @@
+# Flake8 configuration
+
+[flake8]
+max-complexity = 10
+max-line-length = 120
+select = E,F,W,B,C,T4,T10,N
+
+[flake8:black]
+ignore = E203,E501
+
+[flake8:import]
+builtins = _ast,__future__,six,typing
+ignore = E402,F401,F403
+
+[flake8:quotes]
+docstring-quotes = double
+multiline-quotes = double
+
+[flake8:print]
+print-statement = ignore
+
+[flake8: Yale]
+ignore = E203,E501,W503
